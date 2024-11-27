@@ -1,0 +1,5 @@
+type Query {
+    getTask(
+      search: String
+    ): [Task!]!
+  }

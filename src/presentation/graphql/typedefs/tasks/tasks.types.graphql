@@ -1,0 +1,9 @@
+type Task {
+  id: ID!
+  title: String!
+  description: String!
+  createdById: ID!
+
+  #relationship
+  createdBy: User
+}

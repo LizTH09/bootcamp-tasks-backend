@@ -10,9 +10,14 @@
     "nodemon": "^3.1.7"
   },
   "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "@graphql-tools/load-files": "^7.0.0",
+    "@graphql-tools/merge": "^9.0.10",
+    "@graphql-tools/schema": "^10.0.9",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "graphql": "^16.9.0",
     "morgan": "^1.10.0"
   }
 }
